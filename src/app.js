@@ -17,14 +17,14 @@ app.use(express.static(publicDirectoryPath))
 app.get('', (req, res) => {
     res.render('index',{
         title:'Weather App',
-        name: 'ragul'
+        name: 'Ragul'
     })
 })
 
 app.get('/about', (req, res) => {
     res.render('about',{
         title:'About US',
-        name: 'were creating application which is really make useful to peoples and these all application are totally free to use'
+        name: 'If you need to you can always <a href="mailto:#">contact us</a>'
     })
 })
 
