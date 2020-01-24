@@ -23,8 +23,8 @@ app.get('', (req, res) => {
 
 app.get('/about', (req, res) => {
     res.render('about',{
-        title:'Weather App About',
-        name: 'ragul about'
+        title:'About US',
+        name: 'were creating application which is really make useful to peoples and these all application are totally free to use'
     })
 })
 
