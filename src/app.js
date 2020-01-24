@@ -24,7 +24,7 @@ app.get('', (req, res) => {
 app.get('/about', (req, res) => {
     res.render('about',{
         title:'About US',
-        name: 'If you need to you can always <a href="mailto:#">contact us</a>'
+        name: 'If you need to you can always contact us'
     })
 })
 
